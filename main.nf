@@ -1,5 +1,7 @@
 #!/usr/bin/env nextflow
 
+nextflow.enable.dsl=2
+
 //params.index_db = "mpa_vJan21_CHOCOPhlAnSGB_202103"
 //params.mpa_db = "/home/ubuntu/metaphlan_databases"
 //params.input_fastqs = "$baseDir/fastq/*_{1,2}.fastq.gz"
